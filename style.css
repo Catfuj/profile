@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+body {
+  background-color: #eaf4f4;
+  color: #575F7D;
+  font-family: 'Crimson Text', serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Poppins'
+  font-size: 40px;
+  color: #3a2e39;
+}
+
+h2{
+  color: #1e555c;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+a {
+  color: #f72585;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #d7263d;
+}
+
+.card-white {
+  background-color: white;
+  width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 32px;
+  color: rgb(220,220,220);
+  margin: 8px 12px;
+}
+
+.social-icon:hover {
+  color: rgb(20,20,20);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-red {
+  background-color: #f72585;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn-red:hover {
+  background-color: #d7263d;
+  color: white;
+}
